@@ -6,6 +6,6 @@ end
 
 input = ARGV[0]
 
-matches = input.scan(/hbt*n/)
+matches = input.scan(/hb?t*n/) # Changed regex
 
 puts matches.join
